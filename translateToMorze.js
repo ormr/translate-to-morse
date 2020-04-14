@@ -29,7 +29,7 @@ const morseTranslator = (text) => {
       morseText.push('• ');
       break;
     case 'ё':
-      morseText.push('•');
+      morseText.push('• ');
       break;
     case 'ж':
       morseText.push('•••- ');
@@ -56,7 +56,7 @@ const morseTranslator = (text) => {
       morseText.push('-• ');
       break;
     case 'о':
-      morseText.push('---');
+      morseText.push('--- ');
       break;
     case 'п':
       morseText.push('•--• ');

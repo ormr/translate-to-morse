@@ -7,18 +7,22 @@
   <title>Перевести в Морзе</title>
   <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    
     body {
       font-family: 'Roboto', sans-serif;
     }
+
     input {
-      padding: 10px 15px;
+      width: 300px;
+      height: 30px;
     }
   </style>
 </head>
 <body>
   <h1>Перевод в Азбуку Морзе</h1>
   <p>Выполнил Серафим Гаврилов</p>
-  <p>Введите текст (Кириллица): <input id="text" type="text"></p>
+  <p>Введите текст (Кириллица):</p>
+  <input id="text" type="text">
   <p>Результат (Азбука Морзе):</p>
   <textarea id="log" style="width: 300px; height: 150px"></textarea>
   <script src="translateToMorze.js"></script>
